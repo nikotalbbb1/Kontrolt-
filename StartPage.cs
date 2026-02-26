@@ -17,23 +17,23 @@ namespace Kontroltöö
                 switch (valik)
                 {
                     case "1":
-                        var tulemus = Alamfunktsioonid.KytuseKalkulaator();
-                        
-                        Console.WriteLine($"kui palju kütust: {tulemus.Item1:F2}");
-                        Console.WriteLine($" reisi maksumus: {tulemus.Item2:F2}");
-                        break;
-                    
-                    case "2":
-
+                        Alamfunktsioonid.KytuseKalkulaator();
                     break;
+                        
+                    case "2":
+                        
                     
                     case "3":
-
+                        
                     break;
                     
                     case "4":
+                        var tulemus = Alamfunktsioonid.ArvutaPalk(0, 0);
+                        Console.WriteLine("Töötuskindlustus: " + tulemus.Item1);
+                        Console.WriteLine("Kogumispension: " + tulemus.Item2);
+                        break;
 
-                    break;
+                        break;
                     case "0":
                         tööta = false;
                         Console.WriteLine("Nägemist!");
