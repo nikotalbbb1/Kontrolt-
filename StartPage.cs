@@ -33,7 +33,7 @@ namespace Kontroltöö
                         Console.WriteLine("Kogumispension: " + tulemus.Item2);
                         break;
 
-                        break;
+                        
                     case "0":
                         tööta = false;
                         Console.WriteLine("Nägemist!");

@@ -20,6 +20,10 @@ namespace Kontroltöö
             
 
         }
+
+
+
+
         
         public static Tuple<double, double> ArvutaPalk(double töötuskindlustus, double Kogumispension)
         {
